@@ -12,54 +12,54 @@ import java.util.concurrent.ThreadLocalRandom; //for randomizing list
 */
 
 public class GroupSorter {
-//global variables
-String[] classArray;
-String[][] groupArray;
-int classSize;
-int groupSize;
-int numGroupsFull; //number of groups that are full in size
-Int numStudentsInFullGroups; //number of students being allocated into full-size groups
-//getWorld().getObject(Student.class) returns an arraylist of all the student objects
+	//global variables
+	String[] classArray;
+	String[][] groupArray;
+	int classSize;
+	int groupSize;
+	int numGroupsFull; //number of groups that are full in size
+	Int numStudentsInFullGroups; //number of students being allocated into full-size groups
+	//getWorld().getObject(Student.class) returns an arraylist of all the student objects
 
-//Tanvi
-//creates classArray with specified size
-public void createClassArray (int size) {
-	classSize = size;
-	classArray = new String[size];
-}
+	//Tanvi
+	//creates classArray with specified size
+	public void createClassArray (int size) {
+		classSize = size;
+		classArray = new String[size];
+	}
 
-//Daniel
-//adds student name into specified slot in the classArray
-public void addStudent(String studentName, int studentIndex){
-	classArray[studentIndex] = studentName;
-}
-	
-	//felix
-// Implementing Fisher–Yates shuffle, shuffles classArray
-static void shuffleArray(Str[] ar) {
-// If running on Java 6 or older, use `new Random()` on RHS here
-    	Random rnd = ThreadLocalRandom.current();
-    	for (int i = ar.length - 1; i > 0; i--) {
-      		int index = rnd.nextInt(i + 1);
-      		// Simple swap
-      		Str c = ar[index];
-      		ar[index] = ar[i];
-      		ar[i] = c;
-  	}
-}
+	//Daniel
+	//adds student name into specified slot in the classArray
+	public void addStudent(String studentName, int studentIndex){
+		classArray[studentIndex] = studentName;
+	}
 
-//Shelja
-//sorts students in the classArray into groups
-public void groupSorter (int size) {
-	groupSize = size;
-	numGroupsFull = classSize / groupSize;
-	numStudentsInFullGroups = numGroupsFull * groupSize;
-	studentIndex = 0;
-	for (int i = 0; i < numGroupsFull; i++) {
-		for (int j = 0; j < groupSize; j++) {
-			groupArray[i][j] = classArray[studentIndex];
-			studentIndex++;
-}
-}
-}
+		//felix
+	// Implementing Fisher–Yates shuffle, shuffles classArray
+	static void shuffleArray(Str[] ar) {
+	// If running on Java 6 or older, use `new Random()` on RHS here
+		Random rnd = ThreadLocalRandom.current();
+		for (int i = ar.length - 1; i > 0; i--) {
+			int index = rnd.nextInt(i + 1);
+			// Simple swap
+			Str c = ar[index];
+			ar[index] = ar[i];
+			ar[i] = c;
+		}
+	}
+
+	//Shelja
+	//sorts students in the classArray into groups
+	public void groupSorter (int size) {
+		groupSize = size;
+		numGroupsFull = classSize / groupSize;
+		numStudentsInFullGroups = numGroupsFull * groupSize;
+		studentIndex = 0;
+		for (int i = 0; i < numGroupsFull; i++) {
+			for (int j = 0; j < groupSize; j++) {
+				groupArray[i][j] = classArray[studentIndex];
+				studentIndex++;
+			}
+		}
+	}
 }
