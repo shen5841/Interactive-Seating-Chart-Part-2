@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GorkemGuclu
+comment1.params=f\ l\ r\ s
+comment1.target=GorkemGuclu(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=GorkemGuclu()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ getName()
+comment5.params=
+comment5.target=void\ circleClass()
+comment6.params=s
+comment6.target=void\ myHobby(java.lang.String)
+numComments=7

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=JaniceLiu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ JaniceLiu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=f\ l\ r\ s
+comment1.target=JaniceLiu(java.lang.String,\ java.lang.String,\ int,\ int)
+comment10.params=
+comment10.target=int\ numberOfBrothers()
+comment11.params=
+comment11.target=int\ numberOfSiblings()
+comment2.params=
+comment2.target=JaniceLiu()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ JaniceLiu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ getName()
+comment5.params=
+comment5.target=void\ rotateImage()
+comment6.params=
+comment6.target=void\ Dinosaur()
+comment7.params=s
+comment7.target=void\ myHobby(java.lang.String)
+comment8.params=n
+comment8.target=void\ mySiblings(java.lang.String)
+comment9.params=
+comment9.target=int\ numberOfSisters()
+numComments=12

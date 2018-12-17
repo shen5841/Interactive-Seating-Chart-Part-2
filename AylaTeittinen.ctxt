@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AylaTeittinen
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AylaTeittinen\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=f\ l\ r\ s
+comment1.target=AylaTeittinen(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=AylaTeittinen()
+comment2.text=\r\n\ Default\ constructor,\ if\ you\ don't\ pass\ in\ a\ name\ and\ seating\ location\r\n
+comment3.params=
+comment3.target=void\ getName()
+comment4.params=
+comment4.target=void\ aylaMove()
+comment5.params=
+comment5.target=void\ act()
+comment6.params=h
+comment6.target=void\ myHobby(java.lang.String)
+comment7.params=si
+comment7.target=void\ numberOfSiblings(int)
+numComments=8

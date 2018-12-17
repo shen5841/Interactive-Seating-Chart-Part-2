@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=JeffreyTian
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ JeffreyTian\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=f\ l\ r\ s
+comment1.target=JeffreyTian(java.lang.String,\ java.lang.String,\ int,\ int)
+comment10.params=p
+comment10.target=void\ mySport(java.lang.String)
+comment2.params=
+comment2.target=JeffreyTian()
+comment2.text=\r\n\ Default\ constructor,\ if\ you\ don't\ pass\ in\ a\ name\ and\ seating\ location\r\n
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ noSupervision()
+comment5.params=
+comment5.target=void\ getName()
+comment5.text=public\ void\ agarDeath(){\r\n\ \ \ \ \ \ \ \ if(Greenfoot.isKeyDown("d"))\ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ move(1);\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ Greenfoot.delay(2);\r\n\ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ if(Greenfoot.isKeyDown("s"))\ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ setRotation(90);\r\n\ \ \ \ \ \ \ \ \ \ \ \ move(1);\r\n\ \ \ \ \ \ \ \ \ \ \ \ setRotation(0);\r\n\ \ \ \ \ \ \ \ \ \ \ \ Greenfoot.delay(2);\r\n\ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ if(Greenfoot.isKeyDown("a"))\ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ move(-1);\ \r\n\ \ \ \ \ \ \ \ \ \ \ Greenfoot.delay(2);\r\n\ \ \ \ \ \ \ \ }\ \r\n\ \ \ \ \ \ \ \ if(Greenfoot.isKeyDown("w"))\ {\ \r\n\ \ \ \ \ \ \ \ \ \ \ setRotation(-90);\r\n\ \ \ \ \ \ \ \ \ \ \ move(1);\r\n\ \ \ \ \ \ \ \ \ \ \ setRotation(0);\r\n\ \ \ \ \ \ \ \ \ \ \ Greenfoot.delay(2);\r\n\ \ \ \ \ \ \ \ }\ \r\n}\ *
+comment6.params=
+comment6.target=void\ moveClass()
+comment7.params=
+comment7.target=void\ diagnol()
+comment8.params=
+comment8.target=void\ vert()
+comment9.params=s
+comment9.target=void\ myHobby(java.lang.String)
+numComments=11

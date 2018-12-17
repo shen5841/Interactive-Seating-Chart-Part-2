@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GroupSorter
+comment0.text=\r\n\ Use\ Instructions\:\ \r\n\ 1.\ Use\ createClassArray\ (int\ size)\ to\ create\ an\ array\ to\ store\ all\ the\ names\ of\ the\ classmates\r\n\ 2.\ Each\ student\u2019s\ name\ will\ be\ manually\ added\ into\ the\ classArray\ by\ using\r\n\ addStudent(String\ studentName,\ int\ studentIndex)\r\n\ 3.\ Type\ shuffleArray(GroupSorter.classArray)\ to\ shuffle/randomize\ the\ order\ of\ the\ classArray\r\n\ 4.\ Use\ groupSorter\ (int\ size),\ type\ in\ the\ size\ of\ the\ groups\ you\ want\r\n\ 5.\ Print\ out\ the\ groupArray\ to\ get\ your\ groups,\ note\ that\ the\ leftover\ people\ that\ does\ not\ meet\ the\ group\ size\ requirement\ will\ be\ in\ a\ group.\r\n
+comment1.params=size
+comment1.target=void\ createClassArray(int)
+comment2.params=studentName\ studentIndex
+comment2.target=void\ addStudent(java.lang.String,\ int)
+comment3.params=ar
+comment3.target=void\ shuffleArray(java.lang.String[])
+comment4.params=size
+comment4.target=void\ groupSorter(int)
+numComments=5

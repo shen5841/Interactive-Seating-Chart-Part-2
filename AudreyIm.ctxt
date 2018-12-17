@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AudreyIm
+comment0.text=\r\n\ This\ is\ Audrey\ Im's\ student\ subclass.\r\n\ \r\n\ Audrey\ Im\r\n\ 8/22/18\ AP\ CSA\ Period\ 2\r\n
+comment1.params=f\ l\ r\ s
+comment1.target=AudreyIm(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=AudreyIm()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ getName()
+comment5.params=
+comment5.target=void\ moveImage()
+comment5.text=\r\n\ below\ is\ the\ code\ \r\n\ to\ move\ the\ image\r\n\ first\ it\ sets\ the\ coordinates\r\n\ then\ proceeds\ to\ move\ the\ image\ and\ rotate\ it\ multiple\ times\r\n\ after\ that\ the\ image\ excecutes\ the\ sitdown\ the\ moveImage()\ is\ completed\r\n
+comment6.params=a
+comment6.target=void\ mySport(java.lang.String)
+comment7.params=s
+comment7.target=void\ myHobby(java.lang.String)
+numComments=8
